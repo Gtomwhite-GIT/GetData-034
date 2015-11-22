@@ -83,4 +83,4 @@ require("reshape2")
 # Apply mean function to dataset using dcast function
   tidy_data   = dcast(melt_data, Subject + Activity_Label ~ variable, mean)
 
-  write.table(tidy_data, file = "./tidy_data.txt")
+  write.table(tidy_data, file = "./tidy_data.txt", row.names = FALSE)

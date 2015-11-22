@@ -14,7 +14,7 @@ There are five items to be cmpleted by the run_analysis.R script:
 
 * Requires the ```reshape2``` and ```data.table``` libraries.
 * Loads the features and activity labels.
-	-Variables Used
+	*Variables Used
 	1. features
 	2. extract_features
 	3. activity_labels
@@ -23,4 +23,4 @@ There are five items to be cmpleted by the run_analysis.R script:
 * Processes the data in two parts. For test and train data respectively.
 * Merges test and train data sets.
 
--The run_analysis.R code is also commented for the pprocessing
+-The run_analysis.R code is also commented for the processing

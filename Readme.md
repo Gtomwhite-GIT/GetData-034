@@ -21,8 +21,21 @@ There are five items to be cmpleted by the run_analysis.R script:
 	3. 	activity_labels
 
 * Loads both test and train data
-* Extracts the mean and standard deviation column names and data.
-* Processes the data in two parts. For test and train data respectively.
-* Merges test and train data sets.
+
+		Variables Used
+	1. 	X_test
+	2. 	Y_test
+	3. 	subject_test
+	4.	test_data
+	5. 	X_train
+	6. 	Y_train
+	7. 	subject_train
+	8.	train_data
+	
+* Extracts the mean and standard deviation column names and data using the derived extract_features.
+* Processes the data in two parts. For test and train data respectively using the variables above.
+* Merges test and train data sets using rbind().
+* Creates a tidy dataset using melt and dcast.
+* Writes the tidy data to a txt dataset where row_names = FALSE
 
 -The run_analysis.R code is also commented for the processing

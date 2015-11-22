@@ -13,8 +13,14 @@ There are five items to be cmpleted by the run_analysis.R script:
 ## How ```run_analysis.R``` implements the above steps:
 
 * Requires the ```reshape2``` and ```data.table``` libraries.
-* Loads both test and train data
 * Loads the features and activity labels.
+	-Variables Used
+	1. features
+	2. extract_features
+	3. activity_labels
+* Loads both test and train data
 * Extracts the mean and standard deviation column names and data.
 * Processes the data in two parts. For test and train data respectively.
 * Merges test and train data sets.
+
+-The run_analysis.R code is also commented for the pprocessing
